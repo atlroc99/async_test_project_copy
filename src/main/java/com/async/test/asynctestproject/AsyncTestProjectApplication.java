@@ -14,6 +14,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableJpaRepositories({"com.async.test.asynctestproject"})
 public class AsyncTestProjectApplication extends SpringBootServletInitializer{
 
+	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
 		return builder.sources(AsyncTestProjectApplication.class);
 	}
