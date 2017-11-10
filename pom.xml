@@ -4,8 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.async.test</groupId>
-	<artifactId>async-test-project_copy</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>async-war-project</artifactId>
+	<!-- <version>0.0.1-SNAPSHOT</version> -->
 	<packaging>war</packaging>
 
 	<name>async-test-project</name>
@@ -59,6 +59,7 @@
 	</dependencies>
 
 	<build>
+	<finalName>asyncWarTest</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
