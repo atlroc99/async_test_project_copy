@@ -1,0 +1,14 @@
+# Eclipse
+.classpath
+.project
+.gitignore.swp
+.settings/
+bin/
+target/
+.settings/
+node_modules
+
+
+
+
+
